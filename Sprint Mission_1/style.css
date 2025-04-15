@@ -1,51 +1,76 @@
 * {
-    margin: 0px auto;
+    margin:0px auto;
     box-sizing: border-box;
   
 }
 
+.body{
+  padding-top: 60px;
+}
 
-
-.head-item{
+.head-item {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  z-index: 1;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border-bottom: 1px;
-  padding: 9px 0px;
-  gap: 10px;
+  align-items: center;
+  padding: 0 24px;
+  
 }
 .title-name {
-    padding-left: 200px;
+  margin:0px;
+
   }
 
-.login {
-    padding-right: 200px;
+.login{
+  margin:0px;
+}
+
+
+.login-btn {
+    background-color: #3692ff;
+    color:#f3f4f6;
+    width:129px;
+    height: 48px;
+    border: 0px;
+    border-radius: 8px;
+    padding-right: 12px 23px;
+    cursor: pointer;
+    margin:0px
+    
+    
+    
+    
   }
   
- 
-  
-  
-
 
 section {        
   width: 100%;
   height: 540px;
   background-color: #CFE5FF;
   flex-shrink: 0;
-
-  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
+
 .section-items {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: flex-end;
+}
 
- 
+.section.imgs{
+ display:flex;
+ align-items: flex-end;
 
 }
 
 .text {
-  
   position: relative;
   bottom: 100px;
 }
@@ -55,9 +80,6 @@ section {
   font-weight: 700;
   color: #374151;
   line-height: 140%;
-  
-  
-  
 
 }
 
@@ -69,14 +91,13 @@ section {
 
 .section-img {
   margin: 0px;
-
-   
+ 
 }
 
 .container-1 {
   display:flex;
   
-  padding: 138px 466px;
+  padding: 138px 0px;
 } 
 
 .main-items {
@@ -84,7 +105,6 @@ section {
   flex-direction: column;
   justify-content: center;
   
-
   
 }
 
@@ -96,11 +116,12 @@ section {
   align-items: center;
   gap:24px;
   
-
 }
 
 .main-1-text {
   padding-right: 24px;
+  
+  
 }
 
 .text-1-1 {
@@ -134,7 +155,7 @@ section {
 .container-2 {
   display:flex;
   
-  padding: 138px 466px;
+  padding: 138px 0px;
 } 
 
 
@@ -146,7 +167,6 @@ section {
   align-items: center;
   gap:24px;
   
-
 }
 
 .main-2-text {
@@ -184,7 +204,7 @@ section {
 
 .container-3 {
   display:flex;
-  padding: 138px 466px;
+  padding: 138px 0px;
 } 
 
 
@@ -283,10 +303,9 @@ section {
 
 .footer-container {
   background-color: #111827;
-  padding: 32px 400px;
+  padding: 32px 0px;
   height: 160px;
   
-
 }
 
 .codit {
@@ -308,8 +327,6 @@ section {
   justify-content: space-between;
   gap:10px;
   
-
-  
 }
 
 .codit {
@@ -320,8 +337,7 @@ section {
   display:flex;
   flex-direction: row;
   gap:30px;
-  
-  
+   
 }
 
 .icon {
