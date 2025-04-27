@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0px ;
+  
+}
+
+.container-item {
+  width: 640px;
+  height: 618px;
+  margin: 60px auto 407px;
+  
+ 
+}
+
+.logo-img{
+  width: 396px;
+  height: 132px;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin: 40px 112px;
+}
+
+.logo {
+  display:flex; 
+  justify-content: center;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+}
+
+.id {
+  display: flex;
+  flex-direction: column;
+
+/* ----label input -----*/
+}
+.label {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  
+  
+}
+
+.input {
+  width: 640px;
+  height: 56px;
+  border: 0px;
+  background-color: var(--color-background-gray);
+  border-radius: 12px;
+  padding: 16px 24px;
+}
+
+/* ----- ----- */
+
+.password {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+.password-wapper {
+  position: relative;
+  width: 640px;
+  height: 56px;
+
+  
+}
+
+
+
+.password-icon {
+  position: absolute;
+  right: 16px;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  
+  
+  
+}
+
+.btn {
+  width: 640px;
+  height: 56px;
+  border: 0px;
+  background-color:var(--color-blue);
+  border-radius: 12px;
+  color:var(--color-background-gray);
+  font-size: 20px;
+  font-weight: 600px;
+  cursor: pointer;
+ 
+}
+
+.Login-2 {
+  background-color:var(--color-background-light-blue);
+  width: 640px;
+  height: 74px;
+  border-radius: 8px;
+  padding:16px 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:16px;
+}
+
+.Login-2> p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--color-text-dart);
+}
+ .join {
+  display:flex;
+  justify-content: center;
+ }
+
+ #first {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color:var(--color-text-dart);
+ }
+
+ #joingo {
+  width: 49px;
+  height: 17px;
+  font-size:14px;
+  font-weight: 500;
+  line-height: -100%;
+  text-decoration: solid underline;
+  color:var(--color-blue);
+ }
+
+ .google-icon {
+   width: 42px;
+   height: 42px;
+ }
+
+ .kakao-icon {
+  width: 42px;
+  height: 42px;
+}
+
+button {
+  cursor: pointer;
+}
